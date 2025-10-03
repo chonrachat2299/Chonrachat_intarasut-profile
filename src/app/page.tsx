@@ -96,7 +96,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 text-center py-6">
-        <p>© 2025 <span className="text-indigo-400 font-medium">My Portfolio</span>. All Rights Reserved.</p>
+        <p>© 2025 <span className="text-indigo-400 font-medium">My Portfolio Chonlachat</span>. All Rights Reserved.</p>
       </footer>
     </div>
   );
