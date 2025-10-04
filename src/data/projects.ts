@@ -96,8 +96,13 @@ export const projects: Record<string, Project> = {
             "แสดงหน้า About, Projects และ Contact",
         ],
         images: [
-            "/assets/images/webprofile/webprofile.png",
-            "/assets/images/cert-portfolio-2.jpg",
+            // "/assets/images/webprofile/webprofile.png",
+            "/assets/images/webprofile/webprofile1.png",
+            "/assets/images/webprofile/webprofile2.png",
+            "/assets/images/webprofile/webprofile3.png",
+            "/assets/images/webprofile/webprofile4.png",
+            "/assets/images/webprofile/webprofile5.png",
+            "/assets/images/webprofile/webprofile6.png",
         ],
         imageDescriptions: [
             // "1",
