@@ -5,6 +5,9 @@ import ProjectsSection from "@/components/ProjectsSection";
 import Certificate from "@/components/Certificate";
 import Navbar from "@/components/Navbar";
 import Skill from "@/components/Skill";
+import AboutSection from "@/components/AboutSection";
+import ContactSection from "@/components/ContactSection";
+// import LoaderPage from "./loader";
 
 export default function Home() {
   return (
@@ -54,7 +57,7 @@ export default function Home() {
 
 
       {/* About */}
-      <section id="about" className="container mx-auto py-20 px-6">
+      {/* <section id="about" className="container mx-auto py-20 px-6">
         <h3 className="text-3xl font-bold mb-10 text-center text-indigo-600">About Me</h3>
         <div className="md:flex items-center gap-10 bg-white shadow-lg rounded-2xl p-10">
           <Image src="/assets/images/myprofile.jpg" alt="Profile" width={200} height={200} className="rounded-2xl shadow-md mx-auto md:mx-0" />
@@ -64,7 +67,11 @@ export default function Home() {
             และมีความถนัดในการออกแบบระบบและฐานข้อมูล <span className="font-semibold">MySQL / MongoDB</span>.
           </p>
         </div>
-      </section>
+      </section> */}
+      <div>
+        <AboutSection />
+      </div>
+
 
       <Skill />
 
@@ -77,9 +84,20 @@ export default function Home() {
       </div>
 
 
+      <div>
+
+        <ContactSection />
+      </div>
+
+
+      {/* <div>
+        <LoaderPage />
+      </div> */}
+
+
 
       {/* Contact */}
-      <section id="contact" className="bg-gray-100 py-20 px-6">
+      {/* <section id="contact" className="bg-gray-100 py-20 px-6">
         <h3 className="text-3xl font-bold mb-10 text-center text-indigo-600">Contact</h3>
         <div className="bg-white shadow-xl rounded-2xl p-10 max-w-xl mx-auto text-center">
           <p className="mb-6 text-gray-700">หากสนใจร่วมงาน หรือติดต่อสอบถามได้ทาง:</p>
@@ -92,7 +110,7 @@ export default function Home() {
             ส่งอีเมลหาผม
           </a>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 text-center py-6">
