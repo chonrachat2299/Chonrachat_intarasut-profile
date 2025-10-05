@@ -13,7 +13,7 @@ export default function PersonalRecord() {
                     <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
                         <div className="relative w-40 h-40">
                             <Image
-                                src="/assets/images/myprofile.jpg"
+                                src="/assets/images/pictureprofile.jpg"
                                 alt="Profile Picture"
                                 fill
                                 className="rounded-full object-cover shadow-md"
@@ -72,13 +72,13 @@ export default function PersonalRecord() {
                             <h2 className="text-2xl font-bold text-indigo-600 mb-4">การศึกษา</h2>
                             <ul className="list-disc pl-6 text-gray-700 space-y-2">
                                 <li>
-                                    มัธยมปลาย คอมพิวเตอร์บริหารธุรกิจ - โรงเรียนบุญเหลือวิทยาณุสรณ์ (2016 - 2019)
+                                    มัธยมปลาย คอมพิวเตอร์บริหารธุรกิจ ( GPA 3.50 ) - โรงเรียนบุญเหลือวิทยาณุสรณ์ (2016 - 2019)
                                 </li>
                                 <li>
-                                    ประกอบวิชาชีพ(ปวช.) คอมพิวเตอร์บริหารธุรกิจ - มหาวิทยาลัย วิทยาลัยเทคนิคนครโคราช (2016 - 2019)
+                                    ประกอบวิชาชีพ(ปวช.) คอมพิวเตอร์บริหารธุรกิจ ( GPA 3.78 ) - มหาวิทยาลัย วิทยาลัยเทคนิคนครโคราช (2016 - 2019)
                                 </li>
                                 <li>
-                                    ปริญญาตรี คอมพิวเตอร์บริหารธุรกิจ - มหาวิทยาลัย เทคโนโลยีราชมงคลอีสาน (2019 - 2023)
+                                    ปริญญาตรี  สาขาวิชาระบบสารสนเทศและนวัตกรรมธุรกิจดิจิทัล (IDI) ( GPA 3.50 )  - มหาวิทยาลัย เทคโนโลยีราชมงคลอีสาน (2019 - 2023)
                                 </li>
                                 {/* <li>ประกาศนียบัตร Web Development - สถาบัน B (2019)</li> */}
                             </ul>

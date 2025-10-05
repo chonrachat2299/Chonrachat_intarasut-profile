@@ -49,8 +49,8 @@ export default function ProjectsSection() {
                   </div>
                 )}
                 {/* ข้อมูลโปรเจกต์ */}
-                <h4 className="text-xl font-semibold text-gray-800">{project.title}</h4>
-                <p className="mt-2 text-gray-600 flex-1">{project.description}</p>
+                <h4 className="text-xl font-semibold text-gray-800 line-clamp-1">{project.title}</h4>
+                <p className="mt-2 text-gray-600 flex-1 line-clamp-2">{project.description}</p>
 
                 <Link
                   href={`/projectScreen?project=${key}`}

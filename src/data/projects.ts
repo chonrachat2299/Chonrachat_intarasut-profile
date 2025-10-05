@@ -91,9 +91,7 @@ export const projects: Record<string, Project> = {
         title: "Portfolio Website",
         description: "เว็บไซต์ส่วนตัวที่แสดงประวัติและผลงาน พร้อมฟีเจอร์ Dark Mode",
         details: [
-            "ใช้ Next.js, TypeScript และ TailwindCSS",
-            "รองรับ Dark Mode และ Responsive Design",
-            "แสดงหน้า About, Projects และ Contact",
+            "Next.js, HTML , TypeScript และ TailwindCSS",
         ],
         images: [
             // "/assets/images/webprofile/webprofile.png",
@@ -116,8 +114,7 @@ export const projects: Record<string, Project> = {
         title: "Website โรงงานแก๊ส",
         description: "พัฒนา Website ซื้อ-ขายแก๊สในโรงงานบรรจุแก๊ส มีระบบชำระเงิน (เฉพาะเจ้าหน้าที่), ตัดสต๊อกและเติมสต๊อก ออกบิลเงินสดและรายงาน",
         details: [
-            "ระบบสั่งซื้อแก๊สออนไลน์",
-            "ระบบชำระเงินออนไลน์และติดตามออเดอร์",
+            "PHP , HTML , JavaScript , TailwindCSS และ MySql",
         ],
         images: ["/assets/images/gasfactory/gasfactory_login.png",
             "/assets/images/gasfactory/gasfactory.png",
@@ -137,8 +134,7 @@ export const projects: Record<string, Project> = {
         title: "Website ขายแก๊สออนไลน์(เฉพาะพนักงานหน้าร้าน)",
         description: "พัฒนา Website ซื้อ-ขายแก๊ส มีระบบชำระเงิน (เฉพาะเจ้าหน้าที่), ส่วนลด , แต้ม , ตัดสต๊อกและเติมสต๊อก ออกบิลเงินสดและรายงาน",
         details: [
-            "ระบบสั่งซื้อแก๊สออนไลน์",
-            "ระบบชำระเงินออนไลน์และติดตามออเดอร์",
+            "PHP , HTML , JavaScript , TailwindCSS และ MySql",
         ],
         images: ["/assets/images/gasshop/gasshop_1.png",
             "/assets/images/gasshop/gasshop_2.png"
@@ -155,8 +151,7 @@ export const projects: Record<string, Project> = {
         title: "แอพลิเคชั่น ขายแก๊สออนไลน์",
         description: "แอพลิเคชั่น ซื้อขายแก๊ส มีระบบชำระเงิน, และติดตามความคืบหน้าของขนส่ง ",
         details: [
-            "ระบบสั่งซื้อแก๊สออนไลน์",
-            "ระบบชำระเงินออนไลน์และติดตามออเดอร์",
+            "React Native , Node , JavaScript , CSS , REST API และ MySql",
         ],
         images: [
             "/assets/images/appgas/appgas_banner_2.png",
@@ -182,8 +177,7 @@ export const projects: Record<string, Project> = {
         description:
             "ระบบจัดการดูแลและออกรายงาน, จัดทำงานประมาณ และระบบวิเคราะห์ข้อมูลหน้า Dashboard อื่นๆ",
         details: [
-            "ระบบสั่งซื้อแก๊สออนไลน์",
-            "ระบบชำระเงินออนไลน์และติดตามออเดอร์",
+            "Electron , Node , HTML , JavaScript , CSS  และ MySql",
         ],
         images: [
             "/assets/images/pmk/ICONPMK.png",
@@ -207,8 +201,7 @@ export const projects: Record<string, Project> = {
         title: "แอพพลิเคชั่น Medical",
         description: "ระบบจัดการข้อมูลทหารใหม่ และ Dashboard วิเคราะห์ข้อมูล",
         details: [
-            "จัดการข้อมูลทหารใหม่",
-            "Dashboard สำหรับวิเคราะห์ข้อมูล",
+            "React Native , Node , JavaScript , CSS , REST API และ MySql",
         ],
         images: [
             "/assets/images/medical/medicalLogo.png",

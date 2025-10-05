@@ -32,12 +32,12 @@ export default function CertificateSection() {
             </div>
 
             {/* ชื่อ Certificate */}
-            <h4 className="text-lg font-semibold text-gray-800 text-center">
+            <h4 className="text-lg font-semibold text-gray-800 text-center line-clamp-1">
               {cert.title}
             </h4>
 
             {/* คำอธิบายสั้น */}
-            <p className="mt-2 text-gray-600 text-center text-sm">
+            <p className="mt-2 text-gray-600 text-center text-sm line-clamp-2">
               {cert.description}
             </p>
 
